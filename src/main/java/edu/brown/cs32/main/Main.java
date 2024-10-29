@@ -87,7 +87,7 @@ public class Main {
             // // Step 6: Start the server
             // System.out.println("Starting the server on port: " + server.getPort());
             server.start();
-            // System.out.println("Server started successfully on port: " + server.getPort());
+            System.out.println("Server started successfully on port: " + server.getPort());
 
         } catch (Exception e) {
             System.err.println("An unexpected error occurred during server setup: " + e.getMessage());
