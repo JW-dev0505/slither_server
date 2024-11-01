@@ -485,7 +485,7 @@ public class SlitherServer extends WebSocketServer {
    * @param args - a String array: arguments provided to the main method (unused in this case).
    */
   public static void main(String args[]) {
-    final int port = 9000;
+    final int port = 9090;
     new SlitherServer(port).start();
   }
 
