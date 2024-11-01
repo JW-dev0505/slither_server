@@ -80,7 +80,7 @@ public class Main {
 
             // Step 5: Create SSL WebSocket server
             System.out.println("Creating SSL WebSocket server...");
-            SlitherServer server = new SlitherServer(9000);
+            SlitherServer server = new SlitherServer(9090);
             server.setWebSocketFactory(new DefaultSSLWebSocketServerFactory(sslContext));
             System.out.println("WebSocket factory set with SSL context.");
 
